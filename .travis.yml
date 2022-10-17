@@ -11,7 +11,8 @@ deploy:
   region: us-east-1
   app: swe2_app2
   env: django-env02
-  bucket_name: default
+  bucket_name: elasticbeanstalk-us-east-1-991023061782
   on:
     repo: emoltz/swe2_app
+    branch: master
   skip_cleanup: 'true'
