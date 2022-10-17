@@ -1,3 +1,5 @@
+language: bash
+
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIA6NPMT3MLPB5JPG6G
