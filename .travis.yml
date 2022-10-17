@@ -13,9 +13,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AKIA6NPMT3MLPB5JPG6G
-  secret_access_key:
-    secure: JtnGhvH/NyR6BlAA5cPCsX8XJZFEQvowSldjjYy8TPLJyRnQHFhnoMZElZNFlzsv6DAS5ox/Lij+w67XEQNoMHyFl5sBOq4UzmweW+wp4luCjTEQpXj3+5J2MYv4rdPcH2QGBp96AGny0e5ZMm1cxIUFWWWhOPnNfcqfEjrnK+EOLUygIyA6dQ+iRzk/wlikwGBURf2qIhq+fIRxZt2XGccoJvQJP1uPRECCRoK1d0ALlLyg9AWEKm7F7oJSe44MPsvbXCtmOjSma7jxg4zz/138u3jB+OCS7eb49uwyTRzMm9j2sLGnuheS1pb6zeaZxaIpoHK5bl+GdaV6HsaGHdWWgHVVvr1MELgzg17dHekz8KVhljMoPG/sCYNa/8/+lIzlvANIqpydl8NOGTDI/ooLOqNH0oIjVrQ90kZY91ZtRwrIGISBXTXahvhi8zY/CD2uk+aRghXxPEgjy+uQ6LYkpAAXrkj4lxOd3ueGKzqcD1fiSqiEkS647BBcwJEU/WDbgJnEaeDKwGdQ+YB4ePifuqrDSE1kMt2BTwF7SSeaf1UYC/sHtjIGVKSr+CbV3wIe5YAwBuryCMrBIKz4VySxwDAOJmLhzLqmDLNGRjKAWMtjtroe/fnwygueewYiaVqOBV5whVYOdA54cvCLu/YmS3z/FMZLOI57ccFoFB4=
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
   region: us-east-1
   app: swe2_app2
   env: django-env02
