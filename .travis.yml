@@ -22,4 +22,3 @@ deploy:
   on:
     repo: emoltz/swe2_app
     branch: master
-  skip_cleanup: 'true'
