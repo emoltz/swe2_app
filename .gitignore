@@ -1,5 +1,6 @@
 db.sqlite3
 swe-1-venv
+.env
 
 
 # Elastic Beanstalk Files
