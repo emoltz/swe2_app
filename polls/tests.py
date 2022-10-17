@@ -7,6 +7,7 @@ from .models import Question
 
 # Create your tests here.
 
+
 class QuestionModelsTests(TestCase):
     def test_was_published_recently_with_future_question(self):
         # returns false for questions who pub_date is in the future

@@ -7,6 +7,8 @@ install:
   - pip install -r requirements.txt
 
 script:
+  - black ./
+  - flake8 ./
   - echo "test"
 
 deploy:
