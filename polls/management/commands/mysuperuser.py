@@ -8,3 +8,6 @@ class Command(BaseCommand):
             User.objects.create_superuser('myuser',
                                           'myuser@myemail.com',
                                           'mypassword')
+            print("Superuser created")
+        print("Custom superuser already exists")
+
