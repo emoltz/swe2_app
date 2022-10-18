@@ -20,6 +20,6 @@ class UnitTestCase(TestCase):
     def test_one(self):
         self.assertEqual(1, 1)
 
-    def test_home_homepage_template(self):
-        response = self.client.get('/') # this is the homepage
-        self.assertTemplateUsed(response, 'polls/base.html')
+    # def test_home_homepage_template(self):
+    #     response = self.client.get('/') # this is the homepage
+    #     self.assertTemplateUsed(response, 'polls/base.html')
