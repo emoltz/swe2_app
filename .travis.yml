@@ -11,6 +11,9 @@ script:
   - flake8 ./
   - echo "test"
 
+after_success:
+  - coveralls
+
 deploy:
   provider: elasticbeanstalk
   access_key_id: "$AWS_ACCESS_KEY"
