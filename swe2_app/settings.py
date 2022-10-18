@@ -87,12 +87,8 @@ if "RDS_DB_NAME" in os.environ:
 else:
     DATABASES = {
         "default": {
-            "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": "testdb_01",
-            "USER": "postgres",
-            "PASSWORD": "missinglink",
-            "HOST": "localhost",
-            "PORT": "5432",
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
         }
     }
 
