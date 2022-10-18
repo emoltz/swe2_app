@@ -1,6 +1,7 @@
 db.sqlite3
 swe-1-venv
 .env
+swe2_app/keygen.py
 
 
 # Elastic Beanstalk Files
