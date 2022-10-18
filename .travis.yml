@@ -22,6 +22,7 @@ deploy:
   app: swe2_app2
   env: django-env02
   bucket_name: elasticbeanstalk-us-east-1-991023061782
+  bucket_path: swe2_app2
   on:
     repo: emoltz/swe2_app
     branch: master
